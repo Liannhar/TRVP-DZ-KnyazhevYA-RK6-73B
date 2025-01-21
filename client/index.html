@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Koulen:300,400,600,700&amp;lang=en" />
+  <link rel="stylesheet" href="index.css">
+  <script type="module" src="/index.js"></script>
+  <title>Billboard for you</title>
+</head>
+<body class="main-body">
+  <header class="app-header" id="app-header">
+    <h1 class="app-header__app-name">Billboard Friend</h1>
+  </header>
+  <main class="app-main" id="app-main">
+    <ul class="tasklists-list">
+      <li class="tasklists-list__item tasklist-adder">
+        <button type="button" class="tasklist-adder__btn">
+          Добавить список
+        </button>
+        <form action="" class="billboard_adder_form" style="justify-content: space-between">
+          <div class="info-adder__wrapper">
+            <div class="info-adder__input address" style="float: left; padding: 5px">
+              <span class="name-item white-text">
+                Адресс
+              </span>
+              <input type="text" name="Dest" value="Москва" >
+            </div>
+          </div>
+          <button type="submit" class="add-btn">Добавить</button>
+        </form>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
